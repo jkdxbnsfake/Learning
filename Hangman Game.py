@@ -8,7 +8,7 @@ chosen_movie_name = list(str(random.choice(movies_list)).lower())
 print("\n")
 
 new_list =["_" for x in range(len(chosen_movie_name))]
-end_of_game = False
+end_of_game = False................
 
 while not end_of_game:
     user_guess = input("What letters do you think the movie name has ?\t")
